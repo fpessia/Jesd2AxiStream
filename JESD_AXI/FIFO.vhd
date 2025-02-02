@@ -65,7 +65,7 @@ begin
             if (valid0 = '1' and valid2 = '1' and  full = '0' and valid1 = '0' and valid3 = '0') then
                 if (sub_words = '0') then
                     memory(to_integer(wr_ptr))(13 downto 0) <= fifo_line0;
-                    memory(to_integer(wr_ptr))(15 downto 14) <= (others => fifo_line0(13));
+                    memory(to_integer(wr_ptr))(15 downto 14) <= (others => fifo_line0(13)); --sign extention
                     memory(to_integer(wr_ptr))(45 downto 32) <= fifo_line2;
                     memory(to_integer(wr_ptr))(47 downto 46) <= (others => fifo_line2(13));
                     sub_words <= '1';

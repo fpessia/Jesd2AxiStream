@@ -1,0 +1,271 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/SmartTriStateBuffer
+Efifo
+Z0 w1738457695
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 13
+Z4 dC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/Modelsim
+Z5 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/FIFO.vhd
+Z6 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/FIFO.vhd
+l0
+L5 1
+Vz5TKTHY9NUnM^`4_hf_VK3
+!s100 J?PI]@;AZH`iL;^mP[JFP2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1738457910
+!i10b 1
+Z9 !s108 1738457910.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/FIFO.vhd|
+Z11 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/FIFO.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 4 fifo 0 22 z5TKTHY9NUnM^`4_hf_VK3
+!i122 13
+l52
+L37 172
+VVi2eA657loNiVGXQ^hZMj1
+!s100 U[V[l^0dAGXboRETk[Pn=0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ejesd_axi
+Z14 w1738457711
+R1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 14
+R4
+Z17 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Jesd_Axi.vhd
+Z18 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Jesd_Axi.vhd
+l0
+L6 1
+V7eMc:afgQzL81c3?LUb:K3
+!s100 lCbMg5[NEKAUOGgfY]5>L1
+R7
+32
+Z19 !s110 1738457916
+!i10b 1
+Z20 !s108 1738457916.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Jesd_Axi.vhd|
+Z22 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Jesd_Axi.vhd|
+!i113 1
+R12
+R13
+Astructural
+R1
+R15
+R16
+R2
+R3
+DEx4 work 8 jesd_axi 0 22 7eMc:afgQzL81c3?LUb:K3
+!i122 14
+l130
+L37 215
+V84:nBof<XXId]LW;nOCOA3
+!s100 z5JmV893GIH^f9^nAh8ij2
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Ejesd_axi_tb
+Z23 w1738457879
+R1
+R2
+R3
+!i122 15
+R4
+Z24 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/JESD_AXI_tb.vhd
+Z25 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/JESD_AXI_tb.vhd
+l0
+L5 1
+VHeUGXW`^ddC9oo6gFYD043
+!s100 KB^ZRkf43NUHeje?`MW4]0
+R7
+32
+Z26 !s110 1738457920
+!i10b 1
+Z27 !s108 1738457920.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/JESD_AXI_tb.vhd|
+Z29 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/JESD_AXI_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z30 DEx4 work 11 jesd_axi_tb 0 22 HeUGXW`^ddC9oo6gFYD043
+!i122 15
+l66
+L8 250
+VjJ4aS[ZLL]3U3JL@]BZHN3
+!s100 6ahZR^2l29dRH?Z?N2_UR2
+R7
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Emux
+Z31 w1733851679
+R2
+R3
+!i122 1
+R4
+Z32 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/mux.vhd
+Z33 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/mux.vhd
+l0
+L5 1
+V7PRz5F5?851mc3N6jN25O2
+!s100 K68[ANzSQ?EneFz]:<U4b1
+R7
+32
+Z34 !s110 1738447704
+!i10b 1
+Z35 !s108 1738447704.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/mux.vhd|
+Z37 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/mux.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 3 mux 0 22 7PRz5F5?851mc3N6jN25O2
+!i122 1
+l19
+L18 11
+VFh?dGY6aPGm1?LU<A=12]0
+!s100 SLTOOjHN3RHK6z7I=]aPa1
+R7
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Ereg
+Z38 w1733085910
+R1
+R2
+R3
+!i122 0
+R4
+Z39 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/reg.vhd
+Z40 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/reg.vhd
+l0
+L5 1
+V:[nTL>Rz1V5TbmoaXj>bE0
+!s100 ;5]ck_mb1EQ47YjAdL3<60
+R7
+32
+Z41 !s110 1738447698
+!i10b 1
+Z42 !s108 1738447697.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/reg.vhd|
+Z44 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/reg.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 3 reg 0 22 :[nTL>Rz1V5TbmoaXj>bE0
+!i122 0
+l20
+L18 16
+VDKcADdmcD<eTMYGF3IWn61
+!s100 aW:5_Y7FV?X_Y=T=XmJYm2
+R7
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Erotator
+Z45 w1738457365
+R1
+R2
+R3
+!i122 10
+R4
+Z46 8C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Rotator.vhd
+Z47 FC:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Rotator.vhd
+l0
+L5 1
+VN4OaZ]_hUjS5S4GmQge_63
+!s100 BDdoMFgJeG8aG4oLoV[9b3
+R7
+32
+Z48 !s110 1738457494
+!i10b 1
+Z49 !s108 1738457494.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Rotator.vhd|
+Z51 !s107 C:/Users/fpess/OneDrive/Desktop/Phd/Ricerca/CognitiveRadio/hw/Jesd2AxiStream/JESD_AXI/Rotator.vhd|
+!i113 1
+R12
+R13
+Astructural
+R1
+R2
+R3
+DEx4 work 7 rotator 0 22 N4OaZ]_hUjS5S4GmQge_63
+!i122 10
+l81
+L42 476
+Va>7afF4WITlgnIzFbk>NF0
+!s100 1:;g4@2dOB31EiWlf[KZ;1
+R7
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R12
+R13

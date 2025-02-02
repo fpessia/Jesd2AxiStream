@@ -87,7 +87,7 @@ architecture structural of Rotator is
 
         Bus0_adc1(13 downto 6) <= byte0_adc1;
         Bus0_adc1(5 downto 0) <= byte1_adc1(7 downto 2);-- (1 : 0) tail
-        valid0_adc0 <= rx_start_of_frame(0) and not(rx_start_of_frame(1)) and  rx_end_of_frame(1);
+        valid0_adc1 <= rx_start_of_frame(0) and not(rx_start_of_frame(1)) and  rx_end_of_frame(1);
 
         Bus1_adc0(13 downto 6) <= byte1_adc0;
         Bus1_adc0(5 downto 0 ) <= byte2_adc0(7 downto 2);
@@ -313,6 +313,11 @@ frame_process_adc0: process(rst_n,enable, rx_start_of_frame , current_frame, rx_
                                             fifo_line1 <= (others=>'0');
                                             frame <= "0000";
                                         end if;
+                                    else
+                                        valid0 <= '0';
+                                        valid1 <= '0';
+                                        --fifo_line0 <= (others=>'0');
+                                        --fifo_line1 <= (others=>'0');
                                     end if;
                                 end if;
 
@@ -498,6 +503,12 @@ frame_process_adc1: process(rst_n,enable, rx_start_of_frame , current_frame, rx_
                                             fifo_line3 <= (others=>'0');
                                             --frame <= "0000";
                                         end if;
+                                    else
+                                        valid2 <= '0';
+                                        valid3 <= '0';
+                                        fifo_line2 <= (others=>'0');
+                                        
+                                    
                                     end if;
                                 end if;
 

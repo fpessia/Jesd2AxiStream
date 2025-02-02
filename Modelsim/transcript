@@ -1,0 +1,232 @@
+# Compile of reg.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of Rotator.vhd was successful.
+# Compile of FIFO.vhd was successful.
+# Compile of Jesd_Axi.vhd was successful.
+# Compile of JESD_AXI_tb.vhd was successful.
+vsim -gui work.jesd_axi_tb -t ns
+# vsim -gui work.jesd_axi_tb -t ns 
+# Start time: 18:09:04 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+run
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/rot0/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+quit -sim
+# End time: 19:20:05 on Feb 01,2025, Elapsed time: 1:11:01
+# Errors: 0, Warnings: 1
+# Compile of JESD_AXI_tb.vhd was successful.
+vsim -gui -t ns work.jesd_axi_tb
+# vsim -gui -t ns work.jesd_axi_tb 
+# Start time: 19:21:44 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/rot0/*
+run
+quit -sim
+# End time: 19:29:58 on Feb 01,2025, Elapsed time: 0:08:14
+# Errors: 0, Warnings: 2
+# Compile of Rotator.vhd was successful.
+# Compile of JESD_AXI_tb.vhd was successful.
+vsim -gui -t ns work.jesd_axi_tb
+# vsim -gui -t ns work.jesd_axi_tb 
+# Start time: 19:32:39 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+restart
+run
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/AxiFifo/*
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/memory
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+run
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+quit -sim
+# End time: 20:41:24 on Feb 01,2025, Elapsed time: 1:08:45
+# Errors: 0, Warnings: 1
+# Compile of Rotator.vhd was successful.
+vsim -gui -t ns work.jesd_axi_tb
+# vsim -gui -t ns work.jesd_axi_tb 
+# Start time: 20:42:50 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/rot0/valid0 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line1 \
+sim:/jesd_axi_tb/DUT/rot0/valid1 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line2 \
+sim:/jesd_axi_tb/DUT/rot0/valid2 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line3 \
+sim:/jesd_axi_tb/DUT/rot0/valid3
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/memory
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/wr_ptr
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/rd_ptr
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/full
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/trigger_activated
+run
+quit -sim
+# End time: 20:49:41 on Feb 01,2025, Elapsed time: 0:06:51
+# Errors: 0, Warnings: 2
+# Compile of Rotator.vhd was successful.
+# Compile of FIFO.vhd was successful.
+# Compile of JESD_AXI_tb.vhd was successful.
+vsim -gui -t ns work.jesd_axi_tb
+# vsim -gui -t ns work.jesd_axi_tb 
+# Start time: 20:51:50 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line0 \
+sim:/jesd_axi_tb/DUT/rot0/valid0 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line1 \
+sim:/jesd_axi_tb/DUT/rot0/valid1 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line2 \
+sim:/jesd_axi_tb/DUT/rot0/valid2 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line3 \
+sim:/jesd_axi_tb/DUT/rot0/valid3
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/memory
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/wr_ptr \
+sim:/jesd_axi_tb/DUT/AxiFifo/rd_ptr
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/full
+run
+quit -sim
+# End time: 20:58:21 on Feb 01,2025, Elapsed time: 0:06:31
+# Errors: 0, Warnings: 4
+# Compile of FIFO.vhd was successful.
+# Compile of Jesd_Axi.vhd was successful.
+# Compile of JESD_AXI_tb.vhd was successful.
+vsim -gui -t ns work.jesd_axi_tb
+# vsim -gui -t ns work.jesd_axi_tb 
+# Start time: 21:00:16 on Feb 01,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.jesd_axi_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jesd_axi(structural)
+# Loading work.reg(behavioral)
+# Loading work.rotator(structural)
+# Loading work.mux(behavioral)
+# Loading work.fifo(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/jesd_axi_tb/DUT/*
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line0 \
+sim:/jesd_axi_tb/DUT/rot0/valid0 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line1 \
+sim:/jesd_axi_tb/DUT/rot0/valid1 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line2 \
+sim:/jesd_axi_tb/DUT/rot0/valid2 \
+sim:/jesd_axi_tb/DUT/rot0/fifo_line3 \
+sim:/jesd_axi_tb/DUT/rot0/valid3
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/memory
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/fifo_full
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/wr_ptr \
+sim:/jesd_axi_tb/DUT/AxiFifo/rd_ptr
+add wave -position insertpoint  \
+sim:/jesd_axi_tb/DUT/AxiFifo/trigger_activated
+run
